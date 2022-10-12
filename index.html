@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Desafio 1 bootcamp NTT Data</title>
+</head>
+<body>
+    <h1 id="inicio">Primeiros passos com HTML</h1>
+    <hr>
+    <h2>Aprendendo HTML na prática</h2>
+      <h2>Objetivo geral</h2>
+      <p>Aprender a instalar e configurar o ambiente de desenvolvimento, que no caso
+        será o Visual Studio Code.
+        Entender o funcionamento do inspetor de elementos do navegador,
+        estudar o funcionamento das principais tags do html5 e
+        criar sua primeira página HTML. Essa página html será criada através
+        do desafio de projeto proposto no próximo módulo do curso.
+      </p>
+    <h3>Tópicos que serão abordados</h3>
+    <ul>
+        <a href="#ferramentas"><li>Ferramentas utilizadas</li></a>
+        <a href="#inspecionar"><li>Utilizando o inspetor de elementos</li></a>
+        <a href="#baseHtml"><li>Estrutura básica do HTML</li></a>
+        <a href="#tags"><li>Falando sobre Tags</li></a>
+        <a href="#atributos"><li>Atributos básicos</li></a>
+        <a href="#pagina"><li>Executando uma página HTML</li></a>
+        <a href="#textos"><li>Textos</li></a>
+        <a href="#listas"><li>Listas ordenadas e não ordenadas</li></a>
+        <a href="#links"><li>Links</li></a>
+        <a href="#tags-extras"><li>Mais algumas Tags</li></a>
+    </ul>
+
+    <h3 id="ferramentas" style="margin-bottom: 0;">Ferramentas Utilizadas</h3>
+       <a href="#inicio"><small>(Voltar)</small></a>
+       <p>O ambiente de desenvolvimento a ser utilizado durante o curso será o
+       Visual Studio Code, que pode ser baixado <a href="https://code.visualstudio.com/" target="_blank">aqui.</a>
+       O Visual Studio Code é uma IDE (Integrated Development Environment) ou simplesmente
+       Ambiente de Desenvolvimento Integrado, em português. Uma IDE é um software que
+       combina diversas ferramentas em uma interface gráfica, e serve para auxiliar
+       na escrita de códigos. O VS Code é o editor de códigos desenvolvido pela Microsoft.
+       </p>
+
+    
+    <h3 id="inspecionar" style="margin-bottom: 0;">Utilizando o inspetor de elementos</h3>
+       <a href="#inicio"><small>(Voltar)</small></a>
+       <p>O inspetor de elementos é uma ferramenta oferecida pelo próprio navegador,
+       e que como o próprio nome diz serve p/ inspecionar os elementos do documento
+       HTML. Além de inspecionar, essa ferramenta pode ser usada para fazer alterações
+       temporárias no documento e ver os resultados em tempo real, sem precisar mexer
+       no documento original. Isso pode ser bastante útil para testar uma alteração ou
+       diagnosticar um problmea. Ou, ainda, quando você encontra um site com um recurso
+       que você gosta e fica curioso para saber como foi implementado.
+       </p>
+
+       
+    <h3 id="baseHtml" style="margin-bottom: 0;">Estrutura básica do HTML</h3>
+       <a href="#inicio"><small>(Voltar)</small></a>
+       <p>A estrutura básica do HTML compreende as tags html, head e body. A tag <i>html</i> indica
+        para o navagador o tipo daquele documento. A tag <i>head</i> é onde vai ser colocado
+        o cabeçalho da página, com as tags <i>meta, title, style</i>, entre outras. E na tag
+        <i>body</i>, como o próprio nome já sugere, vai o corpo da página, que também
+        poderá ser dividido em seções para melhor entendimento futuro do código.
+       </p>
+
+    <h3 id="tags" style="margin-bottom: 0;">Falando sobre Tags</h3> 
+       <a href="#inicio"><small>(Voltar)</small></a>
+       <p>As tags são os elementos do HTML. É através delas que o navegador 
+         identifica e interpreta os diversos tipos de textos que compõem o 
+         documento. São escritas sempre entre os sinais < (menor que) e > (maior que),
+         e podem ter o que é chamado de tag de fechamento ou não. A tag de fechamento
+         contém uma / (barra) após o sinal < (menor que). Existem ainda as tags que
+         são chamadas de semânticas, e que servem apenas para organizar e facilitar
+         a consulta do código. Alguns exemplos de tags semânticas são <i>header,
+            main e footer </i>.
+       </p>
+
+    <h3 id="atributos" style="margin-bottom: 0;">Atributos Básicos</h3> 
+       <a href="#inicio"><small>(Voltar)</small></a>
+       <p>Atributos são palavras específicas que são usadas dentro das tagas 
+         html a fim de controlar seu comportamento. Através de atributos é possível
+         alterar cores, tamanhos, fundos, etc.. Existem atributos que são globais, 
+         ou seja, podem ser usados em todas as tags, e exitem atributos específicos
+         para determinados tipos de tags, como <i>src, href, disable</i>, etc...
+       </p> 
+       
+    <h3 id="pagina" style="margin-bottom: 0;">Executando uma página HTML</h3> 
+       <a href="#inicio"><small>(Voltar)</small></a>
+       <p>Normalmente o arquivo com a extensão .html ou .htm já está associado a 
+         um determinado navegador, que é escolhido no sistema como navegador padrão
+         para exexutar tais arquivos. E nesse caso basta dar dois cliques sobre o 
+         arquivo ou um clique com o botão direito e ir na opção abrir.
+       </p> 
+
+    <h3 id="textos" style="margin-bottom: 0;">Textos</h3> 
+       <a href="#inicio"><small>(Voltar)</small></a>
+       <p>Existem inúmeras tags destinadas a formatação de textos no HTML, sendo
+         as mais comuns a <i>p</i>, que é de parágrafo, as <i>h1 ao h6</i>, que são 
+         usadas basicamente para dar destaque a títulos, e as que alteram algum
+         comportamento do texto, como negrito, itálico, <i>underline</i>, entre muitas
+         outras que poderão ser abordadas em outros artigos.
+       </p> 
+
+    <h3 id="listas" style="margin-bottom: 0;">Listas Ordenadas e Não Ordenadas</h3> 
+       <a href="#inicio"><small>(Voltar)</small></a>
+       <p>Outro elemento muito usado no HTML são as listas. Existem basicamente
+         as listas ordenadas, representadas pela tag <i>ol</i> (ordered list), que
+         são automaticamente incrementadas com um número ordinal à medida que são
+         inseridas no documento, e as não ordenadas, representadas pela tag <i>u</i>
+         (unordered list), que adicionam apenas um elemento gráfico em cada linha,
+         como uma bolinha, um quadrado ou algum outro símbolo. Para que sejam exibidas
+         as listas ainda contam com outra tag, a <i>li</i>, que é colocada dentro
+         das tags citadas acima, e essa que é a responsável pela lista propriamente dita.
+         <h4 style="margin-bottom: 3px;">Lista Ordenada</h4>
+            <ol style="margin-top: 2px;">
+               <li>Item1</li>
+               <li>Item2</li>
+               <li>Item3</li>
+            </ol>
+
+         <h4 style="margin-bottom: 3px;">Lista não Ordenada</h4>
+            <ul style="margin-top: 2px;">
+               <li>Item1</li>
+               <li>Item2</li>
+               <li>Item3</li>
+            </ul>  
+       </p> 
+
+    <h3 id="links" style="margin-bottom: 0;">Links</h3> 
+       <a href="#inicio"><small>(Voltar)</small></a>
+       <p>Já para a criação de links dentro do documento HTML usamos basicamente
+         a tag <strong><i>a</i></strong>, seguida do seu atributo <strong><i>href</i></strong>, 
+         que significa Hypertext Reference, e é responsável pela informação do destino daquele
+         link, que pode ser um endereço externo ou ainda alguma seção da própria
+         página. Através do atributo <strong><i>target</i></strong> é possível escolher
+         se o link será aberto na mesma aba ou em uma aba separada do navegador.
+       </p>
+       
+    <h3 id="#tags-extras" style="margin-bottom: 0;">Mais algumas Tags</h3> 
+       <a href="#inicio"><small>(Voltar)</small></a>
+       <p>Além das tags já citadas acima iremos falar de mais algumas, que são:
+         <ul>
+            <li><i><del>font</del></i> - está assim riscada justamente para indicar que não é mais usada no html5.</li> 
+            <li><i>del</i> - serve para fazer o efeito acima, de riscar uma palavra ou parte do texto.</li>
+            <li><i>mark</i> - usada para destacar uma parte do texto: <mark>assim..</mark> </li>
+            <li><i>sub</i> - adiciona um texto meia linha abaixo da linha atual. Um de seus usos mais comuns
+            é em fórmulas químicas, como em: H<sub>2</sub>O.</li>
+            <li><i>sup</i> - adiciona um texto meia linha acima da linha atual, comumente
+            usada para numeros exponenciais e citações de rodapé. Ex: 3<sup>2</sup>, Twain<sup>1</sup></li>
+            <li><i>blockquote</i> - serve para referenciar uma citação em um texto. O texto
+            dentro dessa tag recebe um parágrafo à parte, com uma identação, como no exemplo abaixo:
+            <blockquote>The <i>blockquote</i> HTML element indicates that the enclosed text is an 
+               extended quotation. Usually, this is rendered visually by indentation (see Notes for how to change it). 
+               A URL for the source of the quotation may be given using the cite attribute, 
+               while a text representation of the source can be given using the <cite> element.</blockquote></li>
+            <li><i>abbr</i> - define uma abreviação, como a seguinte. A World Wide Web (<abbr title="#">WWW</abbr>)
+            foi criada por Tim Burners Lee. O atributo <b><i>title</i></b> é usado para mostrar uma
+            pequena descrição quando o mouse for passado por cima da abreviação.</li>     
+         </ul>
+       </p>    
+
+       
+    
+<h3>Referências</h3>
+ <p>https://peteel.ufsc.br/2020/08/03/visual-studio-code-3-2-2/</p>
+ <p>https://www.hostgator.com.br/blog/como-utilizar-o-inspecionar-elemento/</p>
+ <p>https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica</p>
+ <p>https://developer.mozilla.org/en-US/docs/Web/HTML</p>
+ <p>https://www.w3schools.com/tags</p>
+    
+</body>
+</html>
